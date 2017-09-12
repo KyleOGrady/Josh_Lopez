@@ -5,6 +5,7 @@ body {
   width: 85%;  /*-- sets width of whole body to 85% --*/
   margin: 0 auto;  /*-- centers the whole body --*/
   font-family: 'Montserrat', sans-serif;  /*-- sets font and fallback --*/
+	background-color: goldenrod;
 }
 figure {
   margin: 0 0 1em 0;  /*-- adds bottom margin to figures --*/
@@ -59,10 +60,15 @@ nav ul li {
   width: 50%; /*-- sets container to take up half the body --*/
   float: left;  /*-- "floats" the container left  --*/
   padding-right: 1em;  /*-- creates space on container's right --*/
+  background-color: lightblue;
+  border-radius: 20px 20px 20px 20px;
+  margin-top: 40px;
+	padding: 20px;
 }
 #hero-image {
   width: 50%;  /*-- sets container to take up other half --*/
   float: left;  /*-- "floats" this container left --*/
+	margin-top: 40px;
 }
 #hero-image::after {  /*-- standard clearfix --*/
   content: "";
