@@ -6,13 +6,24 @@ body {
   margin: 0 auto;  /*-- centers the whole body --*/
   font-family: 'Montserrat', sans-serif;  /*-- sets font and fallback --*/
 	background-color: goldenrod;
+  background-image: url("pix/bees.png");
+  background-size: 10%;
 }
 figure {
   margin: 0 0 1em 0;  /*-- adds bottom margin to figures --*/
   padding: 0;  /*-- removes padding from figures --*/
 }
+
+figcaption {
+  display: table;
+  padding: 10px;
+}
 img {
   width: 100%;  /*-- makes all images responsive --*/
+  padding:3px;
+  border: 3px solid #021a40;
+  background-color: white;
+
 }
 a {
   color:blue;  /*-- sets all link colors --*/
@@ -65,12 +76,13 @@ nav ul li {
   margin-top: 40px;
 	padding: 20px;
 }
-#hero-image {
+#Lopez1 {
   width: 50%;  /*-- sets container to take up other half --*/
-  float: left;  /*-- "floats" this container left --*/
+  float: right;  /*-- "floats" this container left --*/
 	margin-top: 40px;
+  padding-left: 60px;
 }
-#hero-image::after {  /*-- standard clearfix --*/
+#Lopez1::after {  /*-- standard clearfix --*/
   content: "";
   clear: both;
   display: table;
