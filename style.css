@@ -4,7 +4,7 @@
 body {
   width: 85%;  /*-- sets width of whole body to 85% --*/
   margin: 0 auto;  /*-- centers the whole body --*/
-  font-family: 'Montserrat', sans-serif;  /*-- sets font and fallback --*/
+  font-family: 'Russo One', Montserrat, sans-serif;  /*-- sets font and fallback --*/                                                            
 	background-color: goldenrod;
   background-image: url("pix/bees.png");
   background-size: 10%;
@@ -131,6 +131,7 @@ footer {
   margin-top: 4em;  /*-- adds big space above the footer --*/
   border: 1px solid #333;  /*-- adds border around footer --*/
   text-align: center;  /*-- centers text in the footer --*/
+  background-color: white;
 }
 
 header {
@@ -164,4 +165,19 @@ header {
 
 .gallery img{
   margin: 1px;
+}
+
+.wrapper{
+  display: inline-block;
+}
+
+.left{
+  float: left;
+  width: 50%;
+  
+}
+
+.right{
+  float: left;
+  width:50%;
 }
