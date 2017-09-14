@@ -67,19 +67,19 @@ nav ul li {
   clear: both;
   display: table;
 }
-#hero-text {
+#text-left {
   width: 50%; /*-- sets container to take up half the body --*/
   float: left;  /*-- "floats" the container left  --*/
   padding-right: 1em;  /*-- creates space on container's right --*/
   background-color: lightblue;
   border-radius: 20px 20px 20px 20px;
   margin-top: 40px;
-	padding: 20px;
+  padding: 20px;
 }
 #Lopez1 {
   width: 50%;  /*-- sets container to take up other half --*/
-  float: right;  /*-- "floats" this container left --*/
-	margin-top: 40px;
+  float: right;  
+  margin-top: 40px;
   padding-left: 60px;
 }
 #Lopez1::after {  /*-- standard clearfix --*/
@@ -87,15 +87,31 @@ nav ul li {
   clear: both;
   display: table;
 }
+
+#Lopez4{
+  width: 50%;  
+  
+  margin-top: 40px;
+  padding-left: 60px;
+  /*display: inline-block;*/
+  margin-left: 1100px;
+  clear: both;
+}
+
+#quickfacts{
+	
+	
+}
 main::after {  /*-- standard clearfix --*/
   content: "";
   clear: both;
   display: table;
 }
-.reverse-block {
-  background-color: #ccc;  /*-- sets container's background color --*/
+.heading {
+  background-color: lightblue;  /*-- sets container's background color --*/
   text-align: center;  /*-- aligns the text center --*/
   padding: .5em;  /*-- puts a little internal space around text --*/
+  border-radius: 20px 20px 20px 20px;
 }
 article {
   width: 70%;  /*-- sets the container width to 70% of body --*/
@@ -120,4 +136,8 @@ header {
   padding: .5em;  /*-- puts a little internal space around text --*/
   font-size: 90px;
   font-family: 'Passion One';
+}
+
+.container{
+	width: 2
 }
