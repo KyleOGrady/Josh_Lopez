@@ -76,6 +76,7 @@ nav ul li {
   margin-top: 40px;
   padding: 20px;
 }
+
 #Lopez1 {
   width: 50%;  /*-- sets container to take up other half --*/
   float: right;  
@@ -94,13 +95,15 @@ nav ul li {
   margin-top: 40px;
   padding-left: 60px;
   /*display: inline-block;*/
-  margin-left: 1100px;
-  clear: both;
+  
+  float: right;
+  
 }
 
 #quickfacts{
 	
-	
+  margin-right: 180px;
+	float: right;
 }
 main::after {  /*-- standard clearfix --*/
   content: "";
@@ -140,4 +143,25 @@ header {
 
 .container{
 	width: 2
+}
+
+.gallery h1{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 20px 20px 20px 20px;
+  background-color: #696969;
+}
+
+.gallery{
+  background-color: lightblue;
+  border-radius: 20px 20px 20px 20px;
+  padding: 30px 30px 30px 30px;
+  margin-top: 30px;
+ 
+}
+
+.gallery img{
+  margin: 1px;
 }
